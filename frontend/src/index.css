@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Set the entire page background to black and text color to white */
+body {
+  background-color: black;
+  color: white;
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Optional: set a clean font */
+}
+
+/* Optional: Ensure the content takes up at least the full height of the screen */
+html,
+body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box; /* Optional: prevent layout issues with padding/margin */
+}
